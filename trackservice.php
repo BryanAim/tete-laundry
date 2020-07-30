@@ -8,15 +8,15 @@ session_start();
 <html>
   <head>
     <title>Database project</title>
-    <link rel="stylesheet" type="text/css" href="stylesbackup1.css">
+    <link rel="stylesheet" type="text/css" href="stylesBackup1.css">
 
   </head>
   <div class="header">
     <div class="logoWrapper">
       <img class="logo" src="BNN.png" border="0" />
-      <div class="topnav">
-        <a href="usersignin.php">Log in</a>
-        <a href="userregister.php">Sign up</a>
+      <div class="topNav">
+        <a href="userSignIn.php">Log in</a>
+        <a href="userRegister.php">Sign up</a>
         <a href="index.php">Home</a>
         <a href="welcome.php">Go back</a>
       </div>
@@ -114,7 +114,7 @@ session_start();
             <div class="profileWrapper">
               <img class="profileImg" src="person.png" border="0" />
             </div>
-            <div class="pofileText">
+            <div class="profileText">
               <?php
               echo "Hello"."&nbsp"."Guest"."<br>"."<br>"."Please Signup or login<br>"."to receive the bonus";
               ?>

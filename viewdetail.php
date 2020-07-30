@@ -7,13 +7,13 @@ $serviceId = $_GET['serviceId'];
 <html>
   <head>
     <title>Database project</title>
-    <link rel="stylesheet" type="text/css" href="stylesbackup1.css">
+    <link rel="stylesheet" type="text/css" href="stylesBackup1.css">
 
   </head>
   <div class="header">
     <div class="logoWrapper">
       <img class="logo" src="BNN.png" border="0" />
-      <div class="topnav">
+      <div class="topNav">
         <a href="staffsignin.php">Log in</a>
         <a href="staffregister.php">Sign up</a>
         <a href="management.php">Home</a>

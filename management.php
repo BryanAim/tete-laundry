@@ -6,13 +6,13 @@ session_start();
 <html>
   <head>
     <title>Online Laundry</title>
-    <link rel="stylesheet" type="text/css" href="stylesbackup1.css">
+    <link rel="stylesheet" type="text/css" href="stylesBackup1.css">
 
   </head>
   <div class="header">
     <div class="logoWrapper">
       <img class="logo" src="BNN.png" border="0" />
-      <div class="topnav">
+      <div class="topNav">
         <a href="staffsignin.php">Log in</a>
         <a href="staffregister.php">Sign up</a>
         <a href="management.php">Home</a>
@@ -35,7 +35,7 @@ session_start();
             <div class="profileWrapper">
               <img class="profileImg" src="person.png" border="0" />
             </div>
-            <div class="pofileText">
+            <div class="profileText">
               <?php
               echo "Hello"."&nbsp".$_SESSION['userFirstName']."&nbsp".$_SESSION['userLastName']
               ?>
@@ -68,7 +68,7 @@ session_start();
               </div>
               <div class="rightSecondRow">
                 <a href="viewhistory.php">
-                  <div class="viewHistorymWrapper">
+                  <div class="viewHistoryWrapper">
                     <h1>View History</h1>
                   </div>
                 </a>
@@ -87,7 +87,7 @@ session_start();
               <div class="profileWrapper">
                 <img class="profileImg" src="person.png" border="0" />
               </div>
-              <div class="pofileText">
+              <div class="profileText">
                 <?php
                 echo "Hello"."&nbsp".$_SESSION['userFirstName']."&nbsp".$_SESSION['userLastName']."<br>"."<br>"."Status:".$_SESSION['userStatus'];
                 ?>
@@ -120,7 +120,7 @@ session_start();
                 </div>
                 <div class="rightSecondRow">
                   <a href="viewhistory.php">
-                    <div class="viewHistorymWrapper">
+                    <div class="viewHistoryWrapper">
                       <h1>View History</h1>
                     </div>
                   </a>

@@ -2,13 +2,13 @@
 <html>
   <head>
     <title>Online Cleaning System</title>
-    <link rel="stylesheet" type="text/css" href="stylesbackup1.css">
+    <link rel="stylesheet" type="text/css" href="stylesBackup1.css">
 
   </head>
   <div class="header">
     <div class="logoWrapper">
       <img class="logo" src="BNN.png" border="0" />
-      <!-- <div class="topnav">
+      <!-- <div class="topNav">
         <a href="signin.php">Log in</a>
         <a href="register.php">Sign up</a>
         <a href="mainpage.php">Home</a>
