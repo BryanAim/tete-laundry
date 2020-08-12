@@ -33,7 +33,7 @@ if (isset($_POST['regisItemSubmit']) && ($_SESSION['userStatus']=="ADMIN"||$_SES
         <?php $varItemsName[$countItemsRow] = $row['itemName'];
               $varItemsId[$countItemsRow] = $row['itemId'];
               $varItemsPrice[$countItemsRow] = $row['price'];
-              $varItemQuantity[$countItemsRow] = $_POST[($row['itemName']."Vol")];
+              $varItemQuantity[$countItemsRow] = isset($_POST[($row['itemName']."Vol")]);
               $countItemsRow+=1;
         ?>
 <?php } ?>
